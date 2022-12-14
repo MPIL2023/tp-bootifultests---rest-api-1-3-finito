@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "afbb03a2-2e43-47a4-8c9d-160c6cef96d3",
+		"name": "FinitoApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/add/current",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/adder/current",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adder",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/adder/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/adder/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adder",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/adder/accumulate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/adder/accumulate?num=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"adder",
+						"accumulate"
+					],
+					"query": [
+						{
+							"key": "num",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

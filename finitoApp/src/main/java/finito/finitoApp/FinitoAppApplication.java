@@ -10,4 +10,5 @@ public class FinitoAppApplication {
 		SpringApplication.run(FinitoAppApplication.class, args);
 	}
 
+
 }
